@@ -9,10 +9,21 @@
   </head>
   <body>
     <header class="header">
-      <button type="button" class="btn btn-default btn-lg header-button">
-        <i class="fa fa-plus"></i>
-      </button>
+      <button type="button" class="btn btn-default btn-lg header-button"><i class="fa fa-plus-circle"></i></button>
     </header>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <input type="text" class="form-control" placeholder="Image URL">
+            <textarea class="form-control" rows="3">Image Caption</textarea>
+              <div class="image-buttons"><button type="button" class="cancel">Cancel</button>
+              <button type="button" class="add-image"><i class="fa fa-picture-o"></i>
+                Add Image</button>
+              </div>
+        </div>
+      </div>
+    </div>
 
     <script src="js/bundle.js"></script>
   </body>

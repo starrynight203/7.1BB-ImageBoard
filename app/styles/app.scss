@@ -2,6 +2,7 @@
 // Bootstrap Variables
 $icon-font-path: '../../node_modules/bootstrap-sass/assets/fonts/bootstrap/';
 
+$container-large-desktop: (985px);
 // Import Bootstrap
 @import '../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap';
 
@@ -16,6 +17,10 @@ img {
   max-width: 100%;
 }
 
+body {
+  background-color: #eeeeee;
+}
+
 .header {
   background-color: #3377aa;
   height: 50px;
@@ -24,7 +29,51 @@ img {
 }
 
 .header-button {
+  padding: 0;
   background-color: #3377aa;
   border-color: #3377aa;
-  margin: 2px;
+  margin: 0px;
+  height: 48px;
+  width: 45px;
+  font-size: 30px;
+  padding: 0px;
+  margin-left: 103px;
+}
+
+.fa-plus-circle {
+  // font-size: 30px;
+  // padding: 7px;
+  // margin-left: 103px;
+}
+
+.container {
+  background-color: #ddd;
+}
+
+.form-control {
+  color: #aaa;
+}
+.image-buttons {
+  float: right;
+  margin-top: 7px;
+}
+
+.cancel {
+border-radius: 5px;
+height: 45px;
+width: 90px;
+background-color: #aaa;
+color: white;
+border: 1px solid #aaa;
+font-family: helvetica;
+}
+
+.add-image {
+border-radius: 5px;
+height: 45px;
+width: 140px;
+background-color: #00bb44;
+color: white;
+border: 1px solid #00bb44;
+font-family: helvetica;
 }
